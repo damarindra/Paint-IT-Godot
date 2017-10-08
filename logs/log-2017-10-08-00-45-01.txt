@@ -1,0 +1,655 @@
+Couldn't open C:\Users\Damar Indra\Apps\godot\bin/godot.windows.tools.64.pck
+Couldn't open godot.windows.tools.64.pck
+OpenGL ES 3.0 Renderer: GeForce GTX 970/PCIe/SSE2
+GLES3: max ubo light: 409
+GLES3: max ubo reflections: 455, ubo size: 144
+**ERROR**: Class EditorSettings already has a method set_favorite_dirs
+   At: core\class_db.cpp:1182:ClassDB::bind_methodfi() - Method/Function Failed, returning: 0
+Registered interface Native mobile
+(9, 0)
+NEAREST_TILE
+(8, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+80
+NEXT
+(8, 0)
+START
+(9, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(8, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(7, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+70
+NEXT
+(7, 0)
+START
+(8, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(7, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(6, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+60
+NEXT
+(6, 0)
+START
+(7, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(6, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(5, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+50
+NEXT
+(5, 0)
+START
+(6, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(5, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(4, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+40
+NEXT
+(4, 0)
+START
+(5, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(4, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(3, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+30
+NEXT
+(3, 0)
+START
+(4, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(3, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(2, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+20
+NEXT
+(2, 0)
+START
+(3, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(2, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(1, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+10
+NEXT
+(1, 0)
+START
+(2, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(1, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(0, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+0
+NEXT
+(0, 0)
+START
+(1, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(0, 0)
+3
+0
+(down:True), (left:False), (right:False), (up:False)
+NEAREST_TILE
+(0, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+1
+NEXT
+(0, 1)
+START
+(0, 0)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 1)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 2)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+2
+NEXT
+(0, 2)
+START
+(0, 1)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 2)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 3)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+3
+NEXT
+(0, 3)
+START
+(0, 2)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 3)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 4)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+4
+NEXT
+(0, 4)
+START
+(0, 3)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 4)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 5)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+5
+NEXT
+(0, 5)
+START
+(0, 4)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 5)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 6)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+6
+NEXT
+(0, 6)
+START
+(0, 5)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 6)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 7)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+7
+NEXT
+(0, 7)
+START
+(0, 6)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 7)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 8)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+8
+NEXT
+(0, 8)
+START
+(0, 7)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 8)
+0
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+True
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)

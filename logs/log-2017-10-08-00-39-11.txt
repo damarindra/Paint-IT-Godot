@@ -1,0 +1,190 @@
+Couldn't open C:\Users\Damar Indra\Apps\godot\bin/godot.windows.tools.64.pck
+Couldn't open godot.windows.tools.64.pck
+OpenGL ES 3.0 Renderer: GeForce GTX 970/PCIe/SSE2
+GLES3: max ubo light: 409
+GLES3: max ubo reflections: 455, ubo size: 144
+**ERROR**: Class EditorSettings already has a method set_favorite_dirs
+   At: core\class_db.cpp:1182:ClassDB::bind_methodfi() - Method/Function Failed, returning: 0
+Registered interface Native mobile
+(9, 0)
+NEAREST_TILE
+(8, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+80
+NEXT
+(8, 0)
+START
+(9, 0)
+INPUT
+(-1, 0)
+REAL_NEXT
+(8, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+**ERROR**: Condition ' p_aabb.position.x > 1e15 || p_aabb.position.x < -1e15 ' is true. returned: 0
+   At: C:\Users\Damar Indra\Apps\godot\core\math\octree.h:800:Octree<struct VisualServerScene::Instance,1,class DefaultAllocator>::create() - Condition ' p_aabb.position.x > 1e15 || p_aabb.position.x < -1e15 ' is true. returned: 0
+NEAREST_TILE
+(7, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+70
+NEXT
+(7, 0)
+START
+(8, 0)
+INPUT
+(-1, 0)
+REAL_NEXT
+(7, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(6, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+60
+NEXT
+(6, 0)
+START
+(7, 0)
+INPUT
+(-1, 0)
+REAL_NEXT
+(6, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(5, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+50
+NEXT
+(5, 0)
+START
+(6, 0)
+INPUT
+(-1, 0)
+REAL_NEXT
+(5, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(4, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+40
+NEXT
+(4, 0)
+START
+(5, 0)
+INPUT
+(-1, 0)
+REAL_NEXT
+(4, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(3, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+30
+NEXT
+(3, 0)
+START
+(4, 0)
+INPUT
+(-1, 0)
+REAL_NEXT
+(3, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(2, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+20
+NEXT
+(2, 0)
+START
+(3, 0)
+INPUT
+(-1, 0)
+REAL_NEXT
+(2, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(1, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+10
+NEXT
+(1, 0)
+START
+(2, 0)
+INPUT
+(-1, 0)
+REAL_NEXT
+(1, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(0, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+0
+NEXT
+(0, 0)
+START
+(1, 0)
+INPUT
+(-1, 0)
+REAL_NEXT
+(0, 0)
+3
+0
+(down:True), (left:False), (right:False), (up:False)
+NEAREST_TILE
+(0, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+1
+NEXT
+(1, 0)
+START
+(0, 0)
+INPUT
+(1, 0)
+REAL_NEXT
+(1, 0)
+3
+3
+0
+(down:True), (left:False), (right:False), (up:False)

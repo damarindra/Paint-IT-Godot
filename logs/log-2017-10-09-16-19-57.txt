@@ -1,0 +1,12 @@
+Couldn't open C:\Users\Damar Indra\Apps\godot\bin/godot.windows.tools.64.pck
+Couldn't open godot.windows.tools.64.pck
+OpenGL ES 3.0 Renderer: GeForce GTX 970/PCIe/SSE2
+GLES3: max ubo light: 409
+GLES3: max ubo reflections: 455, ubo size: 144
+**ERROR**: Class EditorSettings already has a method set_favorite_dirs
+   At: core\class_db.cpp:1182:ClassDB::bind_methodfi() - Method/Function Failed, returning: 0
+Registered interface Native mobile
+**ERROR**: Condition ' Math::is_nan(p_aabb.size.x) ' is true. returned: 0
+   At: C:\Users\Damar Indra\Apps\godot\core\math\octree.h:806:Octree<struct VisualServerScene::Instance,1,class DefaultAllocator>::create() - Condition ' Math::is_nan(p_aabb.size.x) ' is true. returned: 0
+**ERROR**: Signal 'tween_completed' is already connected to given method 'auto_push_up_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER

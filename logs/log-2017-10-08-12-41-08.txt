@@ -1,0 +1,1833 @@
+Couldn't open C:\Users\Damar Indra\Apps\godot\bin/godot.windows.tools.64.pck
+Couldn't open godot.windows.tools.64.pck
+OpenGL ES 3.0 Renderer: GeForce GTX 970/PCIe/SSE2
+GLES3: max ubo light: 409
+GLES3: max ubo reflections: 455, ubo size: 144
+**ERROR**: Class EditorSettings already has a method set_favorite_dirs
+   At: core\class_db.cpp:1182:ClassDB::bind_methodfi() - Method/Function Failed, returning: 0
+Registered interface Native mobile
+(9, 0)
+(0, 0)
+(9, 9)
+START
+(0, 0)
+START
+(0, 0)
+START
+(0, 0)
+END
+(0, -4)
+END
+(0, -4)
+END
+(0, -4)
+START
+(0, -0.0011)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, -0.0011)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, -0.0011)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 0)
+END
+(0, 0)
+END
+(0, 0)
+END
+(0, -4.0011)
+END
+(0, -4.0011)
+END
+(0, -4.0011)
+END
+(0, 4)
+END
+(0, 4)
+END
+(0, 4)
+START
+(0, 7.989705)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 7.989705)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 7.989705)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, -0.0011)
+END
+(0, -0.0011)
+END
+(0, -0.0011)
+END
+(0, 8)
+END
+(0, 8)
+END
+(0, 8)
+END
+(0, 3.989705)
+END
+(0, 3.9989)
+END
+(0, 3.989705)
+END
+(0, 3.9989)
+END
+(0, 3.989705)
+END
+(0, 3.9989)
+END
+(0, 12)
+END
+(0, 12)
+END
+(0, 12)
+START
+(0, 15.990579)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 15.990579)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 15.990579)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 7.989705)
+END
+(0, 7.9989)
+END
+(0, 7.989705)
+END
+(0, 7.9989)
+END
+(0, 7.989705)
+END
+(0, 7.9989)
+END
+(0, 16)
+END
+(0, 16)
+END
+(0, 16)
+END
+(0, 11.990579)
+END
+(0, 11.989704)
+END
+(0, 11.9989)
+END
+(0, 11.990579)
+END
+(0, 11.989704)
+END
+(0, 11.9989)
+END
+(0, 11.990579)
+END
+(0, 11.989704)
+END
+(0, 11.9989)
+END
+(0, 20)
+END
+(0, 20)
+END
+(0, 20)
+START
+(0, 23.99049)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 23.99049)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 23.99049)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 15.990579)
+END
+(0, 15.989704)
+END
+(0, 15.9989)
+END
+(0, 15.990579)
+END
+(0, 15.989704)
+END
+(0, 15.9989)
+END
+(0, 15.990579)
+END
+(0, 15.989704)
+END
+(0, 15.9989)
+END
+(0, 24)
+END
+(0, 24)
+END
+(0, 24)
+END
+(0, 19.99049)
+END
+(0, 19.99049)
+END
+(0, 19.99049)
+END
+(0, 19.990578)
+END
+(0, 19.989704)
+END
+(0, 19.998901)
+END
+(0, 19.990578)
+END
+(0, 19.989704)
+END
+(0, 19.998901)
+END
+(0, 19.990578)
+END
+(0, 19.989704)
+END
+(0, 19.998901)
+END
+(0, 28)
+END
+(0, 28)
+END
+(0, 28)
+START
+(0, 31.96801)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 31.96801)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 31.96801)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 23.99049)
+END
+(0, 23.99049)
+END
+(0, 23.99049)
+END
+(0, 23.990578)
+END
+(0, 23.989704)
+END
+(0, 23.998901)
+END
+(0, 23.990578)
+END
+(0, 23.989704)
+END
+(0, 23.998901)
+END
+(0, 23.990578)
+END
+(0, 23.989704)
+END
+(0, 23.998901)
+END
+(0, 32)
+END
+(0, 32)
+END
+(0, 32)
+END
+(0, 27.96801)
+END
+(0, 27.96801)
+END
+(0, 27.96801)
+END
+(0, 27.99049)
+END
+(0, 27.99049)
+END
+(0, 27.99049)
+END
+(0, 27.990578)
+END
+(0, 27.989704)
+END
+(0, 27.998901)
+END
+(0, 27.990578)
+END
+(0, 27.989704)
+END
+(0, 27.998901)
+END
+(0, 27.990578)
+END
+(0, 27.989704)
+END
+(0, 27.998901)
+END
+(0, 36)
+END
+(0, 36)
+END
+(0, 36)
+END
+(0, 31.96801)
+END
+(0, 31.96801)
+END
+(0, 31.96801)
+START
+(0, 39.967106)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 39.967106)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 39.967106)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 31.99049)
+END
+(0, 31.99049)
+END
+(0, 31.99049)
+END
+(0, 31.990578)
+END
+(0, 31.989704)
+END
+(0, 31.998901)
+END
+(0, 31.990578)
+END
+(0, 31.989704)
+END
+(0, 31.998901)
+END
+(0, 31.990578)
+END
+(0, 31.989704)
+END
+(0, 31.998901)
+END
+(0, 40)
+END
+(0, 40)
+END
+(0, 40)
+END
+(0, 35.967106)
+END
+(0, 35.96801)
+END
+(0, 35.967106)
+END
+(0, 35.96801)
+END
+(0, 35.967106)
+END
+(0, 35.96801)
+END
+(0, 35.99049)
+END
+(0, 35.99049)
+END
+(0, 35.99049)
+END
+(0, 35.990578)
+END
+(0, 35.989704)
+END
+(0, 35.998901)
+END
+(0, 35.990578)
+END
+(0, 35.989704)
+END
+(0, 35.998901)
+END
+(0, 35.990578)
+END
+(0, 35.989704)
+END
+(0, 35.998901)
+END
+(0, 44)
+END
+(0, 44)
+END
+(0, 44)
+END
+(0, 39.967106)
+END
+(0, 39.96801)
+END
+(0, 39.967106)
+END
+(0, 39.96801)
+END
+(0, 39.967106)
+END
+(0, 39.96801)
+(9, 1)
+False
+START
+(0, 47.96706)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 47.96706)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 47.96706)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 39.99049)
+END
+(0, 39.99049)
+END
+(0, 39.99049)
+END
+(0, 39.990578)
+END
+(0, 39.989704)
+END
+(0, 39.998901)
+END
+(0, 39.990578)
+END
+(0, 39.989704)
+END
+(0, 39.998901)
+END
+(0, 39.990578)
+END
+(0, 39.989704)
+END
+(0, 39.998901)
+END
+(0, 48)
+END
+(0, 48)
+END
+(0, 48)
+END
+(0, 43.96706)
+END
+(0, 43.967106)
+END
+(0, 43.96801)
+END
+(0, 43.96706)
+END
+(0, 43.967106)
+END
+(0, 43.96801)
+END
+(0, 43.96706)
+END
+(0, 43.967106)
+END
+(0, 43.96801)
+END
+(0, 43.99049)
+END
+(0, 43.99049)
+END
+(0, 43.99049)
+END
+(0, 43.990578)
+END
+(0, 43.989704)
+END
+(0, 43.998901)
+END
+(0, 43.990578)
+END
+(0, 43.989704)
+END
+(0, 43.998901)
+END
+(0, 43.990578)
+END
+(0, 43.989704)
+END
+(0, 43.998901)
+END
+(0, 52)
+END
+(0, 52)
+END
+(0, 52)
+START
+(0, 55.922455)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 55.922455)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 55.922455)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 47.96706)
+END
+(0, 47.967106)
+END
+(0, 47.96801)
+END
+(0, 47.96706)
+END
+(0, 47.967106)
+END
+(0, 47.96801)
+END
+(0, 47.96706)
+END
+(0, 47.967106)
+END
+(0, 47.96801)
+END
+(0, 47.99049)
+END
+(0, 47.99049)
+END
+(0, 47.99049)
+END
+(0, 47.990578)
+END
+(0, 47.989704)
+END
+(0, 47.998901)
+END
+(0, 47.990578)
+END
+(0, 47.989704)
+END
+(0, 47.998901)
+END
+(0, 47.990578)
+END
+(0, 47.989704)
+END
+(0, 47.998901)
+END
+(0, 56)
+END
+(0, 56)
+END
+(0, 56)
+END
+(0, 51.922455)
+END
+(0, 51.922455)
+END
+(0, 51.922455)
+END
+(0, 51.96706)
+END
+(0, 51.967106)
+END
+(0, 51.96801)
+END
+(0, 51.96706)
+END
+(0, 51.967106)
+END
+(0, 51.96801)
+END
+(0, 51.96706)
+END
+(0, 51.967106)
+END
+(0, 51.96801)
+END
+(0, 51.99049)
+END
+(0, 51.99049)
+END
+(0, 51.99049)
+END
+(0, 51.990578)
+END
+(0, 51.989704)
+END
+(0, 51.998901)
+END
+(0, 51.990578)
+END
+(0, 51.989704)
+END
+(0, 51.998901)
+END
+(0, 51.990578)
+END
+(0, 51.989704)
+END
+(0, 51.998901)
+END
+(0, 60)
+END
+(0, 60)
+END
+(0, 60)
+END
+(0, 55.922455)
+END
+(0, 55.96706)
+END
+(0, 55.967106)
+END
+(0, 55.96801)
+END
+(0, 55.922455)
+END
+(0, 55.96706)
+END
+(0, 55.967106)
+END
+(0, 55.96801)
+END
+(0, 55.922455)
+END
+(0, 55.96706)
+END
+(0, 55.967106)
+END
+(0, 55.96801)
+START
+(0, 63.923317)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 63.923317)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+(9, 8)
+False
+START
+(0, 63.923317)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 55.99049)
+END
+(0, 55.99049)
+END
+(0, 55.99049)
+END
+(0, 55.990578)
+END
+(0, 55.989704)
+END
+(0, 55.998901)
+END
+(0, 55.990578)
+END
+(0, 55.989704)
+END
+(0, 55.998901)
+END
+(0, 55.990578)
+END
+(0, 55.989704)
+END
+(0, 55.998901)
+END
+(0, 64)
+END
+(0, 64)
+END
+(0, 64)
+END
+(0, 59.923317)
+END
+(0, 59.922455)
+END
+(0, 59.96706)
+END
+(0, 59.967106)
+END
+(0, 59.96801)
+END
+(0, 59.923317)
+END
+(0, 59.922455)
+END
+(0, 59.96706)
+END
+(0, 59.967106)
+END
+(0, 59.96801)
+END
+(0, 59.923317)
+END
+(0, 59.922455)
+END
+(0, 59.96706)
+END
+(0, 59.967106)
+END
+(0, 59.96801)
+END
+(0, 59.99049)
+END
+(0, 59.99049)
+END
+(0, 59.99049)
+END
+(0, 59.990578)
+END
+(0, 59.989704)
+END
+(0, 59.998901)
+END
+(0, 59.990578)
+END
+(0, 59.989704)
+END
+(0, 59.998901)
+END
+(0, 59.990578)
+END
+(0, 59.989704)
+END
+(0, 59.998901)
+END
+(0, 68)
+END
+(0, 68)
+END
+(0, 68)
+END
+(0, 63.923317)
+END
+(0, 63.922455)
+END
+(0, 63.96706)
+END
+(0, 63.967106)
+END
+(0, 63.96801)
+END
+(0, 63.923317)
+END
+(0, 63.922455)
+END
+(0, 63.96706)
+END
+(0, 63.967106)
+END
+(0, 63.96801)
+END
+(0, 63.923317)
+END
+(0, 63.922455)
+END
+(0, 63.96706)
+END
+(0, 63.967106)
+END
+(0, 63.96801)
+START
+(0, 71.92244)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 71.92244)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 71.92244)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 63.99049)
+END
+(0, 63.99049)
+END
+(0, 63.99049)
+END
+(0, 63.990578)
+END
+(0, 63.989704)
+END
+(0, 63.998901)
+END
+(0, 63.990578)
+END
+(0, 63.989704)
+END
+(0, 63.998901)
+END
+(0, 63.990578)
+END
+(0, 63.989704)
+END
+(0, 63.998901)
+END
+(0, 72)
+END
+(0, 72)
+END
+(0, 72)
+END
+(0, 67.92244)
+END
+(0, 67.923317)
+END
+(0, 67.922455)
+END
+(0, 67.967056)
+END
+(0, 67.967102)
+END
+(0, 67.96801)
+END
+(0, 67.92244)
+END
+(0, 67.923317)
+END
+(0, 67.922455)
+END
+(0, 67.967056)
+END
+(0, 67.967102)
+END
+(0, 67.96801)
+END
+(0, 67.92244)
+END
+(0, 67.923317)
+END
+(0, 67.922455)
+END
+(0, 67.967056)
+END
+(0, 67.967102)
+END
+(0, 67.96801)
+END
+(0, 67.990494)
+END
+(0, 67.990494)
+END
+(0, 67.990494)
+END
+(0, 67.990578)
+END
+(0, 67.9897)
+END
+(0, 67.998901)
+END
+(0, 67.990578)
+END
+(0, 67.9897)
+END
+(0, 67.998901)
+END
+(0, 67.990578)
+END
+(0, 67.9897)
+END
+(0, 67.998901)
+END
+(0, 76)
+END
+(0, 76)
+END
+(0, 76)
+START
+(0, 79.849281)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 79.849281)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 79.849281)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 71.92244)
+END
+(0, 71.923317)
+END
+(0, 71.922455)
+END
+(0, 71.967056)
+END
+(0, 71.967102)
+END
+(0, 71.96801)
+END
+(0, 71.92244)
+END
+(0, 71.923317)
+END
+(0, 71.922455)
+END
+(0, 71.967056)
+END
+(0, 71.967102)
+END
+(0, 71.96801)
+END
+(0, 71.92244)
+END
+(0, 71.923317)
+END
+(0, 71.922455)
+END
+(0, 71.967056)
+END
+(0, 71.967102)
+END
+(0, 71.96801)
+END
+(0, 71.990494)
+END
+(0, 71.990494)
+END
+(0, 71.990494)
+END
+(0, 71.990578)
+END
+(0, 71.9897)
+END
+(0, 71.998901)
+END
+(0, 71.990578)
+END
+(0, 71.9897)
+END
+(0, 71.998901)
+END
+(0, 71.990578)
+END
+(0, 71.9897)
+END
+(0, 71.998901)
+END
+(0, 80)
+END
+(0, 80)
+END
+(0, 80)
+END
+(0, 75.849281)
+END
+(0, 75.849281)
+END
+(0, 75.849281)
+END
+(0, 75.92244)
+END
+(0, 75.923317)
+END
+(0, 75.922455)
+END
+(0, 75.967056)
+END
+(0, 75.967102)
+END
+(0, 75.96801)
+END
+(0, 75.92244)
+END
+(0, 75.923317)
+END
+(0, 75.922455)
+END
+(0, 75.967056)
+END
+(0, 75.967102)
+END
+(0, 75.96801)
+END
+(0, 75.92244)
+END
+(0, 75.923317)
+END
+(0, 75.922455)
+END
+(0, 75.967056)
+END
+(0, 75.967102)
+END
+(0, 75.96801)
+END
+(0, 75.990494)
+END
+(0, 75.990494)
+END
+(0, 75.990494)
+END
+(0, 75.990578)
+END
+(0, 75.9897)
+END
+(0, 75.998901)
+END
+(0, 75.990578)
+END
+(0, 75.9897)
+END
+(0, 75.998901)
+END
+(0, 75.990578)
+END
+(0, 75.9897)
+END
+(0, 75.998901)
+END
+(0, 84)
+END
+(0, 84)
+END
+(0, 84)
+END
+(0, 79.849281)
+END
+(0, 79.849281)
+END
+(0, 79.849281)
+START
+(0, 87.84906)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 87.84906)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 87.84906)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 79.92244)
+END
+(0, 79.923317)
+END
+(0, 79.922455)
+END
+(0, 79.967056)
+END
+(0, 79.967102)
+END
+(0, 79.96801)
+END
+(0, 79.92244)
+END
+(0, 79.923317)
+END
+(0, 79.922455)
+END
+(0, 79.967056)
+END
+(0, 79.967102)
+END
+(0, 79.96801)
+END
+(0, 79.92244)
+END
+(0, 79.923317)
+END
+(0, 79.922455)
+END
+(0, 79.967056)
+END
+(0, 79.967102)
+END
+(0, 79.96801)
+END
+(0, 79.990494)
+END
+(0, 79.990494)
+END
+(0, 79.990494)
+END
+(0, 79.990578)
+END
+(0, 79.9897)
+END
+(0, 79.998901)
+END
+(0, 79.990578)
+END
+(0, 79.9897)
+END
+(0, 79.998901)
+END
+(0, 79.990578)
+END
+(0, 79.9897)
+END
+(0, 79.998901)
+END
+(0, 88)
+END
+(0, 88)
+END
+(0, 88)
+END
+(0, 83.84906)
+END
+(0, 83.849281)
+END
+(0, 83.84906)
+END
+(0, 83.849281)
+END
+(0, 83.84906)
+END
+(0, 83.849281)
+END
+(0, 83.92244)
+END
+(0, 83.923317)
+END
+(0, 83.922455)
+END
+(0, 83.967056)
+END
+(0, 83.967102)
+END
+(0, 83.96801)
+END
+(0, 83.92244)
+END
+(0, 83.923317)
+END
+(0, 83.922455)
+END
+(0, 83.967056)
+END
+(0, 83.967102)
+END
+(0, 83.96801)
+END
+(0, 83.92244)
+END
+(0, 83.923317)
+END
+(0, 83.922455)
+END
+(0, 83.967056)
+END
+(0, 83.967102)
+END
+(0, 83.96801)
+END
+(0, 83.990494)
+END
+(0, 83.990494)
+END
+(0, 83.990494)
+END
+(0, 83.990578)
+END
+(0, 83.9897)
+END
+(0, 83.998901)
+END
+(0, 83.990578)
+END
+(0, 83.9897)
+END
+(0, 83.998901)
+END
+(0, 83.990578)
+END
+(0, 83.9897)
+END
+(0, 83.998901)
+END
+(0, 92)
+END
+(0, 92)
+END
+(0, 92)
+END
+(0, 87.84906)
+END
+(0, 87.849281)
+END
+(0, 87.84906)
+END
+(0, 87.849281)
+END
+(0, 87.84906)
+END
+(0, 87.849281)
+START
+(0, 95.743927)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 95.743927)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 95.743927)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 87.92244)
+END
+(0, 87.923317)
+END
+(0, 87.922455)
+END
+(0, 87.967056)
+END
+(0, 87.967102)
+END
+(0, 87.96801)
+END
+(0, 87.92244)
+END
+(0, 87.923317)
+END
+(0, 87.922455)
+END
+(0, 87.967056)
+END
+(0, 87.967102)
+END
+(0, 87.96801)
+END
+(0, 87.92244)
+END
+(0, 87.923317)
+END
+(0, 87.922455)
+END
+(0, 87.967056)
+END
+(0, 87.967102)
+END
+(0, 87.96801)
+END
+(0, 87.990494)
+END
+(0, 87.990494)
+END
+(0, 87.990494)
+END
+(0, 87.990578)
+END
+(0, 87.9897)
+END
+(0, 87.998901)
+END
+(0, 87.990578)
+END
+(0, 87.9897)
+END
+(0, 87.998901)
+END
+(0, 87.990578)
+END
+(0, 87.9897)
+END
+(0, 87.998901)
+END
+(0, 96)
+END
+(0, 96)
+END
+(0, 96)
+END
+(0, 91.743927)
+END
+(0, 91.84906)
+END
+(0, 91.849281)
+END
+(0, 91.743927)
+END
+(0, 91.84906)
+END
+(0, 91.849281)
+END
+(0, 91.743927)
+END
+(0, 91.84906)
+END
+(0, 91.849281)
+END
+(0, 91.92244)
+END
+(0, 91.923317)
+END
+(0, 91.922455)
+END
+(0, 91.967056)
+END
+(0, 91.967102)
+END
+(0, 91.96801)
+END
+(0, 91.92244)
+END
+(0, 91.923317)
+END
+(0, 91.922455)
+END
+(0, 91.967056)
+END
+(0, 91.967102)
+END
+(0, 91.96801)
+END
+(0, 91.92244)
+END
+(0, 91.923317)
+END
+(0, 91.922455)
+END
+(0, 91.967056)
+END
+(0, 91.967102)
+END
+(0, 91.96801)
+END
+(0, 91.990494)
+END
+(0, 91.990494)
+END
+(0, 91.990494)
+END
+(0, 91.990578)
+END
+(0, 91.9897)
+END
+(0, 91.998901)
+END
+(0, 91.990578)
+END
+(0, 91.9897)
+END
+(0, 91.998901)
+END
+(0, 91.990578)
+END
+(0, 91.9897)
+END
+(0, 91.998901)
+END
+(0, 100)
+END
+(0, 100)
+END
+(0, 100)
+END
+(0, 95.743927)
+END
+(0, 95.84906)
+END
+(0, 95.849281)
+END
+(0, 95.743927)
+END
+(0, 95.84906)
+END
+(0, 95.849281)
+END
+(0, 95.743927)
+END
+(0, 95.84906)
+END
+(0, 95.849281)
+START
+(0, 103.739868)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 103.739868)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 95.92244)
+END
+(0, 95.923317)
+END
+(0, 95.922455)
+END
+(0, 95.967056)
+END
+(0, 95.967102)
+END
+(0, 95.96801)
+END
+(0, 95.92244)
+END
+(0, 95.923317)
+END
+(0, 95.922455)
+END
+(0, 95.967056)
+END
+(0, 95.967102)
+END
+(0, 95.96801)
+END
+(0, 95.92244)
+END
+(0, 95.923317)
+END
+(0, 95.922455)
+END
+(0, 95.967056)
+END
+(0, 95.967102)
+END
+(0, 95.96801)
+END
+(0, 95.990494)
+END
+(0, 95.990494)
+END
+(0, 95.990494)
+END
+(0, 95.990578)
+END
+(0, 95.9897)
+END
+(0, 95.998901)
+END
+(0, 95.990578)
+END
+(0, 95.9897)
+END
+(0, 95.998901)
+END
+(0, 95.990578)
+END
+(0, 95.9897)
+END
+(0, 95.998901)
+END
+(0, 104)
+END
+(0, 104)
+END
+(0, 104)
+END
+(0, 99.743927)
+END
+(0, 99.84906)
+END
+(0, 99.849281)
+END
+(0, 99.739868)
+END
+(0, 99.743927)
+END
+(0, 99.84906)
+END
+(0, 99.849281)
+END
+(0, 99.739868)
+END
+(0, 99.743927)
+END
+(0, 99.84906)
+END
+(0, 99.849281)
+END
+(0, 99.92244)
+END
+(0, 99.923317)
+END
+(0, 99.922455)
+END
+(0, 99.967056)
+END
+(0, 99.967102)
+END
+(0, 99.96801)
+END
+(0, 99.92244)
+END
+(0, 99.923317)
+END
+(0, 99.922455)
+END
+(0, 99.967056)
+END
+(0, 99.967102)
+END
+(0, 99.96801)
+END
+(0, 99.92244)
+END
+(0, 99.923317)
+END
+(0, 99.922455)
+END
+(0, 99.967056)
+END
+(0, 99.967102)
+END
+(0, 99.96801)
+END
+(0, 99.990494)
+END
+(0, 99.990494)
+END
+(0, 99.990494)
+END
+(0, 99.990578)
+END
+(0, 99.9897)
+END
+(0, 99.998901)
+END
+(0, 99.990578)
+END
+(0, 99.9897)
+END
+(0, 99.998901)
+END
+(0, 99.990578)
+END
+(0, 99.9897)
+END
+(0, 99.998901)
+END
+(0, 108)
+END
+(0, 108)
+END
+(0, 108)
+END
+(0, 103.743927)
+END
+(0, 103.84906)
+END
+(0, 103.849281)
+END
+(0, 103.739868)
+END
+(0, 103.743927)
+END
+(0, 103.84906)
+END
+(0, 103.849281)
+END
+(0, 103.739868)
+END
+(0, 103.743927)
+END
+(0, 103.84906)
+END
+(0, 103.849281)
+START
+(0, 111.39447)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 111.39447)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 111.39447)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 103.92244)
+END
+(0, 103.923317)
+END
+(0, 103.922455)
+END
+(0, 103.967056)
+END
+(0, 103.967102)
+END
+(0, 103.96801)
+END
+(0, 103.92244)
+END
+(0, 103.923317)
+END
+(0, 103.922455)
+END
+(0, 103.967056)
+END
+(0, 103.967102)
+END
+(0, 103.96801)
+END
+(0, 103.92244)
+END
+(0, 103.923317)
+END
+(0, 103.922455)
+END
+(0, 103.967056)
+END
+(0, 103.967102)
+END
+(0, 103.96801)
+END
+(0, 103.990494)
+END
+(0, 103.990494)
+END
+(0, 103.990494)
+END
+(0, 103.990578)
+END
+(0, 103.9897)
+END
+(0, 103.998901)
+END
+(0, 103.990578)
+END
+(0, 103.9897)
+END
+(0, 103.998901)
+END
+(0, 103.990578)
+END
+(0, 103.9897)
+END
+(0, 103.998901)
+END
+(0, 112)
+END
+(0, 112)
+END
+(0, 112)
+END
+(0, 107.39447)
+END
+(0, 107.743927)
+END
+(0, 107.84906)
+END
+(0, 107.849281)
+END
+(0, 107.39447)
+END
+(0, 107.739868)
+END
+(0, 107.743927)
+END
+(0, 107.84906)
+END
+(0, 107.849281)
+END
+(0, 107.39447)
+END
+(0, 107.739868)
+END
+(0, 107.743927)
+END
+(0, 107.84906)
+END
+(0, 107.849281)
+END
+(0, 107.92244)
+END
+(0, 107.923317)
+END
+(0, 107.922455)
+END
+(0, 107.967056)
+END
+(0, 107.967102)
+END
+(0, 107.96801)
+END
+(0, 107.92244)
+END
+(0, 107.923317)
+END
+(0, 107.922455)
+END
+(0, 107.967056)
+END
+(0, 107.967102)
+END
+(0, 107.96801)
+END
+(0, 107.92244)
+END
+(0, 107.923317)
+END
+(0, 107.922455)
+END
+(0, 107.967056)
+END
+(0, 107.967102)
+END
+(0, 107.96801)
+END
+(0, 107.990494)
+END
+(0, 107.990494)
+END
+(0, 107.990494)
+END
+(0, 107.990578)
+END
+(0, 107.9897)
+END
+(0, 107.998901)
+END
+(0, 107.990578)
+END
+(0, 107.9897)
+END
+(0, 107.998901)
+END
+(0, 107.990578)
+END
+(0, 107.9897)
+END
+(0, 107.998901)
+END
+(0, 116)
+END
+(0, 116)
+END
+(0, 116)
+END
+(0, 111.39447)
+END
+(0, 111.743927)
+END
+(0, 111.84906)
+END
+(0, 111.849281)
+END
+(0, 111.39447)
+END
+(0, 111.739868)
+END
+(0, 111.743927)
+END
+(0, 111.84906)
+END
+(0, 111.849281)
+END
+(0, 111.39447)
+END
+(0, 111.739868)
+END
+(0, 111.743927)
+END
+(0, 111.84906)
+END
+(0, 111.849281)
+START
+(0, 119.130531)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 119.130531)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+START
+(0, 119.130531)
+**ERROR**: Signal 'tween_completed' is already connected to given method 'fall_tween' in that object.
+   At: core\object.cpp:1338:Object::connect() - Condition ' s->slot_map.has(target) ' is true. returned: ERR_INVALID_PARAMETER
+END
+(0, 111.92244)
+END
+(0, 111.923317)
+END
+(0, 111.922455)
+END
+(0, 111.967056)
+END
+(0, 111.967102)
+END
+(0, 111.96801)
+END
+(0, 111.92244)
+END
+(0, 111.923317)
+END
+(0, 111.922455)
+END
+(0, 111.967056)
+END
+(0, 111.967102)
+END
+(0, 111.96801)
+END
+(0, 111.92244)
+END
+(0, 111.923317)
+END
+(0, 111.922455)
+END
+(0, 111.967056)
+END
+(0, 111.967102)
+END
+(0, 111.96801)
+END
+(0, 111.990494)
+END
+(0, 111.990578)
+END
+(0, 111.9897)
+END
+(0, 111.998901)
+END
+(0, 120)
+END
+(0, 111.990494)
+END
+(0, 111.990578)
+END
+(0, 111.9897)
+END
+(0, 111.998901)
+END
+(0, 120)
+END
+(0, 111.990494)
+END
+(0, 111.990578)
+END
+(0, 111.9897)
+END
+(0, 111.998901)
+END
+(0, 120)

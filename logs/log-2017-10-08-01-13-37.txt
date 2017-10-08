@@ -1,0 +1,383 @@
+Couldn't open C:\Users\Damar Indra\Apps\godot\bin/godot.windows.tools.64.pck
+Couldn't open godot.windows.tools.64.pck
+OpenGL ES 3.0 Renderer: GeForce GTX 970/PCIe/SSE2
+GLES3: max ubo light: 409
+GLES3: max ubo reflections: 455, ubo size: 144
+**ERROR**: Class EditorSettings already has a method set_favorite_dirs
+   At: core\class_db.cpp:1182:ClassDB::bind_methodfi() - Method/Function Failed, returning: 0
+Registered interface Native mobile
+(9, 0)
+REAL_NEXT
+(8, 0)
+**ERROR**: Condition ' p_aabb.position.x > 1e15 || p_aabb.position.x < -1e15 ' is true. returned: 0
+   At: C:\Users\Damar Indra\Apps\godot\core\math\octree.h:800:Octree<struct VisualServerScene::Instance,1,class DefaultAllocator>::create() - Condition ' p_aabb.position.x > 1e15 || p_aabb.position.x < -1e15 ' is true. returned: 0
+REAL_NEXT
+(8, 1)
+REAL_NEXT
+(8, 2)
+REAL_NEXT
+(9, 2)
+REAL_NEXT
+(9, 3)
+REAL_NEXT
+(9, 4)
+REAL_NEXT
+(0, 8)
+REAL_NEXT
+(8, 4)
+REAL_NEXT
+(0, 7)
+REAL_NEXT
+(8, 5)
+REAL_NEXT
+(1, 7)
+REAL_NEXT
+(7, 5)
+REAL_NEXT
+(2, 7)
+REAL_NEXT
+(7, 6)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(8, 6)
+REAL_NEXT
+(4, 7)
+REAL_NEXT
+(8, 7)
+REAL_NEXT
+(5, 7)
+REAL_NEXT
+(9, 7)
+REAL_NEXT
+(6, 7)
+REAL_NEXT
+(9, 6)
+REAL_NEXT
+(7, 7)
+REAL_NEXT
+(9, 5)
+REAL_NEXT
+(6, 7)
+(9, 5)
+False
+REAL_NEXT
+(8, 5)
+REAL_NEXT
+(5, 7)
+(8, 5)
+False
+REAL_NEXT
+(7, 5)
+REAL_NEXT
+(5, 6)
+REAL_NEXT
+(6, 5)
+REAL_NEXT
+(5, 5)
+REAL_NEXT
+(6, 4)
+REAL_NEXT
+(5, 4)
+REAL_NEXT
+(7, 4)
+REAL_NEXT
+(5, 3)
+REAL_NEXT
+(7, 3)
+REAL_NEXT
+(6, 3)
+REAL_NEXT
+(8, 3)
+(8, 3)
+False
+REAL_NEXT
+(7, 3)
+REAL_NEXT
+(7, 2)
+REAL_NEXT
+(6, 2)
+REAL_NEXT
+(5, 2)
+REAL_NEXT
+(5, 3)
+REAL_NEXT
+(4, 3)
+REAL_NEXT
+(5, 1)
+REAL_NEXT
+(5, 0)
+REAL_NEXT
+(4, 2)
+REAL_NEXT
+(4, 0)
+REAL_NEXT
+(4, 1)
+REAL_NEXT
+(3, 0)
+REAL_NEXT
+(3, 1)
+REAL_NEXT
+(2, 0)
+REAL_NEXT
+(2, 1)
+REAL_NEXT
+(1, 0)
+REAL_NEXT
+(1, 1)
+REAL_NEXT
+(0, 0)
+REAL_NEXT
+(0, 1)
+REAL_NEXT
+(1, 2)
+REAL_NEXT
+(0, 2)
+REAL_NEXT
+(0, 3)
+REAL_NEXT
+(1, 3)
+REAL_NEXT
+(2, 3)
+REAL_NEXT
+(0, 4)
+REAL_NEXT
+(2, 4)
+REAL_NEXT
+(0, 5)
+REAL_NEXT
+(2, 5)
+REAL_NEXT
+(1, 5)
+REAL_NEXT
+(1, 6)
+REAL_NEXT
+(2, 6)
+REAL_NEXT
+(3, 5)
+REAL_NEXT
+(3, 6)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(3, 6)
+REAL_NEXT
+(4, 7)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(5, 7)
+REAL_NEXT
+(2, 7)
+REAL_NEXT
+(6, 7)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(7, 7)
+REAL_NEXT
+(4, 7)
+REAL_NEXT
+(7, 8)
+REAL_NEXT
+(4, 6)
+REAL_NEXT
+(6, 8)
+REAL_NEXT
+(4, 5)
+REAL_NEXT
+(5, 8)
+REAL_NEXT
+(4, 4)
+REAL_NEXT
+(5, 9)
+REAL_NEXT
+(3, 4)
+REAL_NEXT
+(4, 9)
+REAL_NEXT
+(3, 3)
+REAL_NEXT
+(3, 9)
+REAL_NEXT
+(3, 2)
+REAL_NEXT
+(3, 8)
+REAL_NEXT
+(2, 2)
+REAL_NEXT
+(2, 8)
+REAL_NEXT
+(2, 3)
+REAL_NEXT
+(2, 7)
+REAL_NEXT
+(2, 4)
+REAL_NEXT
+(1, 7)
+REAL_NEXT
+(1, 4)
+REAL_NEXT
+(0, 7)
+REAL_NEXT
+(1, 5)
+REAL_NEXT
+(0, 6)
+REAL_NEXT
+(1, 6)
+(0, 6)
+False
+REAL_NEXT
+(0, 5)
+REAL_NEXT
+(1, 7)
+REAL_NEXT
+(1, 5)
+REAL_NEXT
+(1, 6)
+REAL_NEXT
+(1, 4)
+REAL_NEXT
+(1, 5)
+REAL_NEXT
+(2, 4)
+REAL_NEXT
+(2, 5)
+REAL_NEXT
+(3, 5)
+REAL_NEXT
+(2, 3)
+REAL_NEXT
+(3, 6)
+REAL_NEXT
+(1, 3)
+REAL_NEXT
+(2, 6)
+REAL_NEXT
+(1, 2)
+REAL_NEXT
+(3, 6)
+REAL_NEXT
+(1, 1)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(2, 1)
+REAL_NEXT
+(3, 8)
+REAL_NEXT
+(2, 2)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(3, 2)
+REAL_NEXT
+(3, 6)
+REAL_NEXT
+(3, 1)
+REAL_NEXT
+(4, 1)
+REAL_NEXT
+(4, 2)
+REAL_NEXT
+(4, 3)
+REAL_NEXT
+(3, 3)
+REAL_NEXT
+(3, 4)
+REAL_NEXT
+(4, 4)
+REAL_NEXT
+(5, 4)
+REAL_NEXT
+(5, 5)
+REAL_NEXT
+(4, 5)
+REAL_NEXT
+(3, 5)
+REAL_NEXT
+(2, 5)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(1, 5)
+REAL_NEXT
+(2, 7)
+REAL_NEXT
+(1, 6)
+REAL_NEXT
+(1, 7)
+REAL_NEXT
+(2, 6)
+REAL_NEXT
+(3, 6)
+REAL_NEXT
+(2, 7)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(4, 7)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(4, 6)
+REAL_NEXT
+(5, 6)
+REAL_NEXT
+(3, 6)
+REAL_NEXT
+(6, 6)
+REAL_NEXT
+(4, 6)
+(6, 6)
+False
+REAL_NEXT
+(5, 6)
+REAL_NEXT
+(4, 5)
+(5, 6)
+False
+REAL_NEXT
+(4, 6)
+REAL_NEXT
+(3, 6)
+REAL_NEXT
+(4, 6)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(4, 7)
+REAL_NEXT
+(2, 7)
+REAL_NEXT
+(1, 7)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(1, 8)
+REAL_NEXT
+(2, 7)
+REAL_NEXT
+(1, 9)
+REAL_NEXT
+(3, 7)
+REAL_NEXT
+(0, 9)
+REAL_NEXT
+(4, 7)
+REAL_NEXT
+(0, 8)
+(0, 8)
+False
+REAL_NEXT
+(1, 8)
+(1, 8)
+False
+REAL_NEXT
+(2, 8)
+REAL_NEXT
+(2, 9)
+(2, 9)
+False
+REAL_NEXT
+(3, 9)

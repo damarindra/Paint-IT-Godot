@@ -1,0 +1,2701 @@
+Couldn't open C:\Users\Damar Indra\Apps\godot\bin/godot.windows.tools.64.pck
+Couldn't open godot.windows.tools.64.pck
+OpenGL ES 3.0 Renderer: GeForce GTX 970/PCIe/SSE2
+GLES3: max ubo light: 409
+GLES3: max ubo reflections: 455, ubo size: 144
+**ERROR**: Class EditorSettings already has a method set_favorite_dirs
+   At: core\class_db.cpp:1182:ClassDB::bind_methodfi() - Method/Function Failed, returning: 0
+Registered interface Native mobile
+(9, 0)
+NEAREST_TILE
+(8, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+80
+NEXT
+(8, 0)
+START
+(9, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(8, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(7, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+70
+NEXT
+(7, 0)
+START
+(8, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(7, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(6, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+60
+NEXT
+(6, 0)
+START
+(7, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(6, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(5, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+50
+NEXT
+(5, 0)
+START
+(6, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(5, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(4, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+40
+NEXT
+(4, 0)
+START
+(5, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(4, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(3, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+30
+NEXT
+(3, 0)
+START
+(4, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(3, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(2, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+20
+NEXT
+(2, 0)
+START
+(3, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(2, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(1, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+10
+NEXT
+(1, 0)
+START
+(2, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(1, 0)
+3
+0
+0
+(down:True), (left:True), (right:False), (up:False)
+NEAREST_TILE
+(0, 0)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+0
+NEXT
+(0, 0)
+START
+(1, 0)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(0, 0)
+3
+0
+(down:True), (left:False), (right:False), (up:False)
+NEAREST_TILE
+(0, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+1
+NEXT
+(0, 1)
+START
+(0, 0)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 1)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 2)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+2
+NEXT
+(0, 2)
+START
+(0, 1)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 2)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 3)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+3
+NEXT
+(0, 3)
+START
+(0, 2)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 3)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 4)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+4
+NEXT
+(0, 4)
+START
+(0, 3)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 4)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 5)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+5
+NEXT
+(0, 5)
+START
+(0, 4)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 5)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(0, 6)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+6
+NEXT
+(0, 6)
+START
+(0, 5)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 6)
+0
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(0, 8)
+NEAREST_TILE
+(0, 7)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+7
+NEXT
+(0, 7)
+START
+(0, 6)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 7)
+0
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(1, 7)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+17
+NEXT
+(1, 7)
+START
+(0, 7)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(1, 7)
+0
+3
+0
+0
+(down:True), (left:False), (right:True), (up:True)
+NEAREST_TILE
+(1, 6)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+16
+NEXT
+(1, 6)
+START
+(1, 7)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(1, 6)
+0
+3
+0
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(1, 8)
+NEAREST_TILE
+(1, 5)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+15
+NEXT
+(1, 5)
+START
+(1, 6)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(1, 5)
+0
+3
+0
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(1, 7)
+NEAREST_TILE
+(1, 4)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+14
+NEXT
+(1, 4)
+START
+(1, 5)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(1, 4)
+0
+3
+0
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(2, 7)
+NEAREST_TILE
+(1, 3)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+13
+NEXT
+(1, 3)
+START
+(1, 4)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(1, 3)
+0
+3
+0
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(2, 6)
+NEAREST_TILE
+(1, 2)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+12
+NEXT
+(1, 2)
+START
+(1, 3)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(1, 2)
+0
+3
+0
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(2, 5)
+NEAREST_TILE
+(1, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+11
+NEXT
+(1, 1)
+START
+(1, 2)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(1, 1)
+0
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(2, 4)
+NEAREST_TILE
+(2, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+21
+NEXT
+(2, 1)
+START
+(1, 1)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(2, 1)
+0
+3
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(2, 2)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+22
+NEXT
+(2, 2)
+START
+(2, 1)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(2, 2)
+0
+3
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(1, 4)
+NEAREST_TILE
+(2, 3)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+23
+NEXT
+(2, 3)
+START
+(2, 2)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(2, 3)
+0
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(2, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+24
+NEXT
+(2, 4)
+START
+(2, 3)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(2, 4)
+0
+2
+3
+2
+(down:True), (left:True), (right:True), (up:False)
+NEAREST_TILE
+(2, 5)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+25
+NEXT
+(2, 5)
+START
+(2, 4)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(2, 5)
+0
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(2, 4)
+NEAREST_TILE
+(2, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+26
+NEXT
+(2, 6)
+START
+(2, 5)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(2, 6)
+0
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(2, 5)
+NEAREST_TILE
+(2, 7)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+27
+NEXT
+(2, 7)
+START
+(2, 6)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(2, 7)
+0
+2
+3
+0
+(down:True), (left:True), (right:True), (up:False)
+REAL_NEXT
+(1, 5)
+NEAREST_TILE
+(1, 7)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+17
+NEXT
+(1, 7)
+START
+(2, 7)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(1, 7)
+3
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+NEAREST_TILE
+(1, 8)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+18
+NEXT
+(1, 8)
+START
+(1, 7)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(1, 8)
+0
+2
+3
+0
+(down:True), (left:True), (right:True), (up:False)
+REAL_NEXT
+(2, 5)
+NEAREST_TILE
+(0, 8)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+8
+NEXT
+(0, 8)
+START
+(1, 8)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(0, 8)
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+NEAREST_TILE
+(0, 9)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+9
+NEXT
+(0, 9)
+START
+(0, 8)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 9)
+0
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(2, 6)
+NEAREST_TILE
+(1, 9)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+19
+NEXT
+(1, 9)
+START
+(0, 9)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(1, 9)
+0
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(2, 7)
+NEAREST_TILE
+(2, 9)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+29
+NEXT
+(2, 9)
+START
+(1, 9)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(2, 9)
+0
+3
+0
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(1, 7)
+NEAREST_TILE
+(2, 8)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+28
+NEXT
+(2, 8)
+START
+(2, 9)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(2, 8)
+0
+3
+2
+3
+(down:False), (left:False), (right:True), (up:True)
+NEAREST_TILE
+(2, 7)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+27
+NEXT
+(2, 7)
+START
+(2, 8)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(2, 7)
+0
+2
+2
+3
+(down:False), (left:True), (right:True), (up:True)
+NEAREST_TILE
+(2, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+26
+NEXT
+(2, 6)
+START
+(2, 7)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(2, 6)
+0
+3
+2
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(0, 7)
+NEAREST_TILE
+(2, 5)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+25
+NEXT
+(2, 5)
+START
+(2, 6)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(2, 5)
+0
+2
+2
+3
+(down:False), (left:True), (right:True), (up:True)
+REAL_NEXT
+(0, 6)
+NEAREST_TILE
+(1, 5)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+15
+NEXT
+(1, 5)
+START
+(2, 5)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(1, 5)
+3
+3
+2
+3
+(down:False), (left:False), (right:False), (up:True)
+REAL_NEXT
+(0, 5)
+NEAREST_TILE
+(1, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+14
+NEXT
+(1, 4)
+START
+(1, 5)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(1, 4)
+2
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(0, 4)
+NEAREST_TILE
+(2, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+24
+NEXT
+(2, 4)
+START
+(1, 4)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(2, 4)
+0
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(1, 4)
+NEAREST_TILE
+(3, 4)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+34
+NEXT
+(3, 4)
+START
+(2, 4)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(3, 4)
+0
+3
+0
+0
+(down:True), (left:False), (right:True), (up:True)
+REAL_NEXT
+(2, 4)
+NEAREST_TILE
+(3, 3)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+33
+NEXT
+(3, 3)
+START
+(3, 4)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(3, 3)
+0
+3
+0
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(3, 4)
+NEAREST_TILE
+(3, 2)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+32
+NEXT
+(3, 2)
+START
+(3, 3)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(3, 2)
+0
+3
+0
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(3, 3)
+NEAREST_TILE
+(3, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+31
+NEXT
+(3, 1)
+START
+(3, 2)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(3, 1)
+0
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(4, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+41
+NEXT
+(4, 1)
+START
+(3, 1)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(4, 1)
+0
+3
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(4, 3)
+NEAREST_TILE
+(4, 2)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+42
+NEXT
+(4, 2)
+START
+(4, 1)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(4, 2)
+0
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(5, 3)
+NEAREST_TILE
+(4, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+43
+NEXT
+(4, 3)
+START
+(4, 2)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(4, 3)
+2
+2
+3
+0
+(down:True), (left:True), (right:True), (up:False)
+NEAREST_TILE
+(3, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+33
+NEXT
+(3, 3)
+START
+(4, 3)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(3, 3)
+3
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+REAL_NEXT
+(4, 3)
+NEAREST_TILE
+(3, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+34
+NEXT
+(3, 4)
+START
+(3, 3)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(3, 4)
+0
+2
+3
+0
+(down:True), (left:True), (right:True), (up:False)
+REAL_NEXT
+(4, 4)
+NEAREST_TILE
+(2, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+24
+NEXT
+(2, 4)
+START
+(3, 4)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(2, 4)
+3
+2
+3
+3
+(down:False), (left:True), (right:False), (up:False)
+REAL_NEXT
+(4, 5)
+NEAREST_TILE
+(1, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+14
+NEXT
+(1, 4)
+START
+(2, 4)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(1, 4)
+3
+2
+3
+3
+(down:False), (left:True), (right:False), (up:False)
+REAL_NEXT
+(3, 5)
+NEAREST_TILE
+(0, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+4
+NEXT
+(0, 4)
+START
+(1, 4)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(0, 4)
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+REAL_NEXT
+(2, 5)
+NEAREST_TILE
+(0, 5)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+5
+NEXT
+(0, 5)
+START
+(0, 4)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 5)
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+REAL_NEXT
+(3, 5)
+NEAREST_TILE
+(0, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+6
+NEXT
+(0, 6)
+START
+(0, 5)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 6)
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+REAL_NEXT
+(4, 5)
+NEAREST_TILE
+(0, 7)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+7
+NEXT
+(0, 7)
+START
+(0, 6)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(0, 7)
+2
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(4, 6)
+NEAREST_TILE
+(1, 7)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+17
+NEXT
+(1, 7)
+START
+(0, 7)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(1, 7)
+3
+3
+3
+3
+(down:False), (left:False), (right:False), (up:False)
+NEAREST_TILE
+(3, 7)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+37
+NEXT
+(2, 7)
+START
+(1, 7)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(2, 7)
+0
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(3, 6)
+NEAREST_TILE
+(3, 7)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+37
+NEXT
+(3, 7)
+START
+(2, 7)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(3, 7)
+0
+3
+2
+0
+(down:True), (left:False), (right:True), (up:True)
+NEAREST_TILE
+(3, 8)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+38
+NEXT
+(3, 8)
+START
+(3, 7)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(3, 8)
+0
+3
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(3, 9)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+39
+NEXT
+(3, 9)
+START
+(3, 8)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(3, 9)
+0
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(4, 6)
+NEAREST_TILE
+(4, 9)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+49
+NEXT
+(4, 9)
+START
+(3, 9)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(4, 9)
+0
+3
+0
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(5, 6)
+NEAREST_TILE
+(4, 8)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+48
+NEXT
+(4, 8)
+START
+(4, 9)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(4, 8)
+0
+3
+0
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(5, 7)
+NEAREST_TILE
+(4, 7)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+47
+NEXT
+(4, 7)
+START
+(4, 8)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(4, 7)
+2
+3
+2
+3
+(down:False), (left:False), (right:True), (up:True)
+NEAREST_TILE
+(4, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+46
+NEXT
+(4, 6)
+START
+(4, 7)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(4, 6)
+2
+2
+2
+3
+(down:False), (left:True), (right:True), (up:True)
+REAL_NEXT
+(4, 7)
+NEAREST_TILE
+(3, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+36
+NEXT
+(3, 6)
+START
+(4, 6)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(3, 6)
+3
+3
+2
+3
+(down:False), (left:False), (right:False), (up:True)
+REAL_NEXT
+(4, 6)
+NEAREST_TILE
+(3, 5)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+35
+NEXT
+(3, 5)
+START
+(3, 6)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(3, 5)
+2
+2
+3
+3
+(down:False), (left:True), (right:True), (up:False)
+REAL_NEXT
+(3, 6)
+NEAREST_TILE
+(2, 5)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+25
+NEXT
+(2, 5)
+START
+(3, 5)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(2, 5)
+3
+3
+3
+3
+(down:False), (left:False), (right:False), (up:False)
+REAL_NEXT
+(3, 7)
+NEAREST_TILE
+(3, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+36
+NEXT
+(3, 5)
+START
+(2, 5)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(3, 5)
+2
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(2, 7)
+NEAREST_TILE
+(3, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+36
+NEXT
+(3, 6)
+START
+(3, 5)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(3, 6)
+2
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(2, 6)
+NEAREST_TILE
+(3, 7)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+37
+NEXT
+(3, 7)
+START
+(3, 6)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(3, 7)
+2
+2
+3
+3
+(down:False), (left:True), (right:True), (up:False)
+REAL_NEXT
+(3, 6)
+NEAREST_TILE
+(2, 7)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+27
+NEXT
+(2, 7)
+START
+(3, 7)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(2, 7)
+3
+3
+2
+3
+(down:False), (left:False), (right:False), (up:True)
+REAL_NEXT
+(4, 6)
+NEAREST_TILE
+(2, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+26
+NEXT
+(2, 6)
+START
+(2, 7)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(2, 6)
+2
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(4, 7)
+NEAREST_TILE
+(3, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+36
+NEXT
+(3, 6)
+START
+(2, 6)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(3, 6)
+2
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(3, 7)
+NEAREST_TILE
+(4, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+46
+NEXT
+(4, 6)
+START
+(3, 6)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(4, 6)
+2
+3
+2
+2
+(down:True), (left:False), (right:True), (up:True)
+REAL_NEXT
+(3, 6)
+NEAREST_TILE
+(4, 5)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+45
+NEXT
+(4, 5)
+START
+(4, 6)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(4, 5)
+0
+3
+2
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(4, 6)
+NEAREST_TILE
+(4, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+44
+NEXT
+(4, 4)
+START
+(4, 5)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(4, 4)
+0
+3
+2
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(4, 5)
+NEAREST_TILE
+(4, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+43
+NEXT
+(4, 3)
+START
+(4, 4)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(4, 3)
+2
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(4, 4)
+NEAREST_TILE
+(5, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+53
+NEXT
+(5, 3)
+START
+(4, 3)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(5, 3)
+0
+3
+0
+0
+(down:True), (left:False), (right:True), (up:True)
+REAL_NEXT
+(4, 3)
+NEAREST_TILE
+(5, 2)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+52
+NEXT
+(5, 2)
+START
+(5, 3)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(5, 2)
+0
+3
+0
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(5, 3)
+NEAREST_TILE
+(5, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+51
+NEXT
+(5, 1)
+START
+(5, 2)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(5, 1)
+0
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(6, 3)
+NEAREST_TILE
+(6, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+61
+NEXT
+(6, 1)
+START
+(5, 1)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(6, 1)
+0
+3
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(6, 2)
+NEAREST_TILE
+(7, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+71
+NEXT
+(7, 1)
+START
+(6, 1)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(7, 1)
+0
+3
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(7, 2)
+NEAREST_TILE
+(8, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+81
+NEXT
+(8, 1)
+START
+(7, 1)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(8, 1)
+0
+3
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(8, 2)
+NEAREST_TILE
+(9, 1)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+91
+NEXT
+(9, 1)
+START
+(8, 1)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(9, 1)
+3
+3
+0
+(down:True), (left:False), (right:False), (up:False)
+REAL_NEXT
+(9, 2)
+NEAREST_TILE
+(8, 2)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+82
+NEXT
+(8, 1)
+START
+(9, 1)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(8, 1)
+3
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+REAL_NEXT
+(9, 3)
+NEAREST_TILE
+(8, 2)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+82
+NEXT
+(8, 2)
+START
+(8, 1)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(8, 2)
+2
+2
+3
+0
+(down:True), (left:True), (right:True), (up:False)
+REAL_NEXT
+(8, 3)
+NEAREST_TILE
+(7, 2)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+72
+NEXT
+(7, 2)
+START
+(8, 2)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(7, 2)
+3
+2
+3
+0
+(down:True), (left:True), (right:False), (up:False)
+REAL_NEXT
+(7, 3)
+NEAREST_TILE
+(6, 2)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+62
+NEXT
+(6, 2)
+START
+(7, 2)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(6, 2)
+3
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+REAL_NEXT
+(6, 3)
+NEAREST_TILE
+(5, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+53
+NEXT
+(5, 2)
+START
+(6, 2)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(5, 2)
+3
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+REAL_NEXT
+(5, 3)
+NEAREST_TILE
+(4, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+43
+NEXT
+(4, 2)
+START
+(5, 2)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(4, 2)
+3
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+REAL_NEXT
+(6, 3)
+NEAREST_TILE
+(4, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+43
+NEXT
+(4, 3)
+START
+(4, 2)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(4, 3)
+2
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(7, 3)
+NEAREST_TILE
+(4, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+44
+NEXT
+(4, 4)
+START
+(4, 3)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(4, 4)
+0
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(7, 4)
+NEAREST_TILE
+(4, 5)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+45
+NEXT
+(4, 5)
+START
+(4, 4)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(4, 5)
+0
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(7, 5)
+NEAREST_TILE
+(4, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+46
+NEXT
+(4, 6)
+START
+(4, 5)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(4, 6)
+2
+2
+3
+2
+(down:True), (left:True), (right:True), (up:False)
+REAL_NEXT
+(6, 5)
+NEAREST_TILE
+(3, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+36
+NEXT
+(3, 6)
+START
+(4, 6)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(3, 6)
+3
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+REAL_NEXT
+(5, 5)
+NEAREST_TILE
+(3, 7)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+37
+NEXT
+(3, 7)
+START
+(3, 6)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(3, 7)
+2
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(6, 5)
+NEAREST_TILE
+(4, 7)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+47
+NEXT
+(4, 7)
+START
+(3, 7)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(4, 7)
+2
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(7, 5)
+NEAREST_TILE
+(5, 7)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+57
+NEXT
+(5, 7)
+START
+(4, 7)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(5, 7)
+0
+3
+2
+0
+(down:True), (left:False), (right:True), (up:True)
+REAL_NEXT
+(7, 6)
+NEAREST_TILE
+(5, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+56
+NEXT
+(5, 6)
+START
+(5, 7)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(5, 6)
+0
+3
+2
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(6, 6)
+NEAREST_TILE
+(5, 5)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+55
+NEXT
+(5, 5)
+START
+(5, 6)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(5, 5)
+2
+3
+0
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(6, 5)
+NEAREST_TILE
+(5, 4)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+54
+NEXT
+(5, 4)
+START
+(5, 5)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(5, 4)
+0
+3
+2
+3
+(down:False), (left:False), (right:True), (up:True)
+REAL_NEXT
+(6, 4)
+NEAREST_TILE
+(5, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+53
+NEXT
+(5, 3)
+START
+(5, 4)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(5, 3)
+2
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(6, 3)
+NEAREST_TILE
+(6, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+64
+NEXT
+(5, 4)
+START
+(5, 3)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(5, 4)
+2
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(7, 3)
+NEAREST_TILE
+(6, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+64
+NEXT
+(6, 4)
+START
+(5, 4)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(6, 4)
+2
+3
+2
+2
+(down:True), (left:False), (right:True), (up:True)
+REAL_NEXT
+(8, 3)
+NEAREST_TILE
+(6, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+63
+NEXT
+(6, 3)
+START
+(6, 4)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(6, 3)
+2
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(8, 4)
+NEAREST_TILE
+(7, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+73
+NEXT
+(7, 3)
+START
+(6, 3)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(7, 3)
+2
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(7, 4)
+NEAREST_TILE
+(8, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+83
+NEXT
+(8, 3)
+START
+(7, 3)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(8, 3)
+2
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(7, 3)
+NEAREST_TILE
+(8, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+84
+NEXT
+(8, 4)
+START
+(8, 3)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(8, 4)
+0
+2
+3
+0
+(down:True), (left:True), (right:True), (up:False)
+REAL_NEXT
+(8, 3)
+NEAREST_TILE
+(7, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+74
+NEXT
+(7, 4)
+START
+(8, 4)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(7, 4)
+3
+3
+2
+2
+(down:True), (left:False), (right:False), (up:True)
+REAL_NEXT
+(8, 4)
+NEAREST_TILE
+(7, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+73
+NEXT
+(7, 3)
+START
+(7, 4)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(7, 3)
+2
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(7, 4)
+NEAREST_TILE
+(8, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+83
+NEXT
+(8, 3)
+START
+(7, 3)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(8, 3)
+2
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(7, 3)
+NEAREST_TILE
+(8, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+84
+NEXT
+(8, 4)
+START
+(8, 3)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(8, 4)
+0
+2
+3
+0
+(down:True), (left:True), (right:True), (up:False)
+NEAREST_TILE
+(7, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+74
+NEXT
+(7, 4)
+START
+(8, 4)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(7, 4)
+3
+3
+2
+2
+(down:True), (left:False), (right:False), (up:True)
+REAL_NEXT
+(8, 3)
+NEAREST_TILE
+(7, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+73
+NEXT
+(7, 3)
+START
+(7, 4)
+INPUT
+(0, -1)
+False
+REAL_NEXT
+(7, 3)
+2
+3
+3
+3
+(down:False), (left:False), (right:True), (up:False)
+REAL_NEXT
+(8, 4)
+NEAREST_TILE
+(8, 3)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+83
+NEXT
+(8, 3)
+START
+(7, 3)
+INPUT
+(1, 0)
+False
+REAL_NEXT
+(8, 3)
+2
+3
+3
+2
+(down:True), (left:False), (right:True), (up:False)
+REAL_NEXT
+(7, 4)
+NEAREST_TILE
+(8, 4)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+84
+NEXT
+(8, 4)
+START
+(8, 3)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(8, 4)
+0
+2
+3
+0
+(down:True), (left:True), (right:True), (up:False)
+NEAREST_TILE
+(8, 5)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+85
+NEXT
+(8, 5)
+START
+(8, 4)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(8, 5)
+0
+2
+3
+0
+(down:True), (left:True), (right:True), (up:False)
+REAL_NEXT
+(8, 4)
+NEAREST_TILE
+(7, 5)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+75
+NEXT
+(7, 5)
+START
+(8, 5)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(7, 5)
+3
+2
+2
+2
+(down:True), (left:True), (right:False), (up:True)
+REAL_NEXT
+(8, 5)
+NEAREST_TILE
+(6, 5)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+65
+NEXT
+(6, 5)
+START
+(7, 5)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(6, 5)
+3
+3
+3
+2
+(down:True), (left:False), (right:False), (up:False)
+REAL_NEXT
+(7, 5)
+NEAREST_TILE
+(6, 6)
+NEAR_ID
+2
+NEAR TILE FROM ASTAR
+66
+NEXT
+(6, 6)
+START
+(6, 5)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(6, 6)
+2
+3
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(6, 7)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+67
+NEXT
+(6, 7)
+START
+(6, 6)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(6, 7)
+0
+3
+3
+0
+(down:True), (left:False), (right:True), (up:False)
+NEAREST_TILE
+(6, 8)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+68
+NEXT
+(6, 8)
+START
+(6, 7)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(6, 8)
+0
+0
+3
+0
+(down:True), (left:True), (right:True), (up:False)
+NEAREST_TILE
+(5, 8)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+58
+NEXT
+(5, 8)
+START
+(6, 8)
+INPUT
+(-1, 0)
+False
+REAL_NEXT
+(5, 8)
+3
+3
+3
+0
+(down:True), (left:False), (right:False), (up:False)
+NEAREST_TILE
+(5, 9)
+NEAR_ID
+0
+NEAR TILE FROM ASTAR
+59
+NEXT
+(5, 9)
+START
+(5, 8)
+INPUT
+(0, 1)
+False
+REAL_NEXT
+(5, 9)
+0
+3
+3
+(down:False), (left:False), (right:True), (up:False)

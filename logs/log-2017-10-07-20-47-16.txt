@@ -1,0 +1,41 @@
+Couldn't open C:\Users\Damar Indra\Apps\godot\bin/godot.windows.tools.64.pck
+Couldn't open godot.windows.tools.64.pck
+OpenGL ES 3.0 Renderer: GeForce GTX 970/PCIe/SSE2
+GLES3: max ubo light: 409
+GLES3: max ubo reflections: 455, ubo size: 144
+**ERROR**: Class EditorSettings already has a method set_favorite_dirs
+   At: core\class_db.cpp:1182:ClassDB::bind_methodfi() - Method/Function Failed, returning: 0
+Registered interface Native mobile
+(0, 8)
+(0, 7)
+(0, 6)
+(1, 6)
+(2, 6)
+(3, 6)
+(3, 7)
+(2, 7)
+(2, 6)
+(3, 6)
+(3, 7)
+(4, 7)
+(4, 6)
+(5, 6)
+(5, 5)
+(6, 5)
+(6, 4)
+(5, 4)
+(5, 3)
+(6, 3)
+(7, 3)
+(8, 3)
+(9, 3)
+(8, 3)
+(7, 3)
+(7, 2)
+(7, 1)
+(7, 0)
+(8, 0)
+(9, 1)
+(8, 1)
+(8, 0)
+(9, 0)

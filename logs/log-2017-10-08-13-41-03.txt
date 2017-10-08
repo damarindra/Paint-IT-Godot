@@ -1,0 +1,84 @@
+Couldn't open C:\Users\Damar Indra\Apps\godot\bin/godot.windows.tools.64.pck
+Couldn't open godot.windows.tools.64.pck
+OpenGL ES 3.0 Renderer: GeForce GTX 970/PCIe/SSE2
+GLES3: max ubo light: 409
+GLES3: max ubo reflections: 455, ubo size: 144
+**ERROR**: Class EditorSettings already has a method set_favorite_dirs
+   At: core\class_db.cpp:1182:ClassDB::bind_methodfi() - Method/Function Failed, returning: 0
+Registered interface Native mobile
+0.32421
+0.085379
+0.356312
+end
+**ERROR**: Condition ' p_aabb.position.x > 1e15 || p_aabb.position.x < -1e15 ' is true. returned: 0
+   At: C:\Users\Damar Indra\Apps\godot\core\math\octree.h:800:Octree<struct VisualServerScene::Instance,1,class DefaultAllocator>::create() - Condition ' p_aabb.position.x > 1e15 || p_aabb.position.x < -1e15 ' is true. returned: 0
+end
+end
+0.528708
+0.297523
+0.690067
+end
+0.772294
+end
+0.532435
+end
+0.263639
+end
+end
+0.271444
+0.154847
+end
+0.398424
+end
+end
+0.485464
+end
+0.550209
+0.072646
+end
+end
+0.309048
+end
+0.393658
+0.605046
+end
+0.474127
+end
+0.606181
+end
+0.180286
+end
+end
+0.187981
+end
+end
+0.612782
+0.571098
+0.14358
+end
+end
+0.777528
+end
+0.082589
+end
+0.217729
+end
+0.166393
+0.485825
+end
+end
+0.391879
+0.534855
+end
+0.169221
+end
+0.618982
+end
+end
+0.725718
+0.025469
+end
+end
+0.457171
+0.515617
+end

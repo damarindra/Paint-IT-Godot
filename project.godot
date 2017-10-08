@@ -1,0 +1,49 @@
+config_version=3
+
+config_version=null
+
+[application]
+
+config/name="Paint It"
+run/main_scene="res://World.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+Global="*res://Global.gd"
+
+[display]
+
+window/size/width=700
+window/size/height=400
+window/stretch/mode="2d"
+window/stretch/aspect="keep_width"
+
+[gdnative]
+
+singletons=[  ]
+
+[input]
+
+red_right=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":87,"unicode":0,"echo":false,"script":null)
+ ]
+red_left=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"unicode":0,"echo":false,"script":null)
+ ]
+red_up=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":81,"unicode":0,"echo":false,"script":null)
+ ]
+red_down=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"unicode":0,"echo":false,"script":null)
+ ]
+green_right=[  ]
+green_left=[  ]
+green_up=[  ]
+green_down=[  ]
+purple_right=[  ]
+purple_left=[  ]
+purple_up=[  ]
+purple_down=[  ]
+
+[rendering]
+
+quality/2d/use_pixel_snap=true
+environment/default_clear_color=Color( 0.70079, 0.896816, 0.949219, 1 )
+environment/default_environment="res://default_env.tres"

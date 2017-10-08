@@ -1,0 +1,78 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://design.png" type="Texture" id=1]
+[ext_resource path="res://CharacterAI.gd" type="Script" id=2]
+[ext_resource path="res://jump.wav" type="AudioStream" id=3]
+
+[node name="Red" type="Node2D"]
+
+[node name="Red" type="Sprite" parent="."]
+
+texture = ExtResource( 1 )
+centered = false
+vframes = 10
+hframes = 10
+frame = 12
+script = ExtResource( 2 )
+_sections_unfolded = [ "Animation", "Offset", "Transform" ]
+auto_setup_by_name = true
+char_id = 1
+move_time = 0.5
+jump_height = 15
+frame_left = 23
+frame_up = 12
+frame_right = 13
+frame_down = 22
+jump_sfx = ExtResource( 3 )
+start_position = 1
+offset_position = Vector2( 17, 12 )
+
+[node name="Tween" type="Tween" parent="Red"]
+
+playback_process_mode = 1
+playback/active = false
+playback/repeat = false
+playback/speed = 1.0
+_sections_unfolded = [ "playback" ]
+
+[node name="TweenJump" type="Tween" parent="Red"]
+
+playback_process_mode = 1
+playback/active = false
+playback/repeat = false
+playback/speed = 1.0
+_sections_unfolded = [ "playback" ]
+
+[node name="TweenFall" type="Tween" parent="Red"]
+
+playback_process_mode = 1
+playback/active = false
+playback/repeat = false
+playback/speed = 1.0
+_sections_unfolded = [ "playback" ]
+
+[node name="Area2D" type="Area2D" parent="Red"]
+
+position = Vector2( 16, 22 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+audio_bus_override = false
+audio_bus_name = "Master"
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Red/Area2D"]
+
+build_mode = 0
+polygon = PoolVector2Array( -16, 7, 5, 16, 17, 10, -4, 0 )
+
+[node name="audio" type="AudioStreamPlayer" parent="Red"]
+
+stream = ExtResource( 3 )
+volume_db = -10.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+

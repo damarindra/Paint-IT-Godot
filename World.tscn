@@ -1,0 +1,941 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://GameManager.gd" type="Script" id=1]
+[ext_resource path="res://BoardManager.gd" type="Script" id=2]
+[ext_resource path="res://design.png" type="Texture" id=3]
+[ext_resource path="res://ArrowPU.tscn" type="PackedScene" id=4]
+[ext_resource path="res://CharacterManager.gd" type="Script" id=5]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=6]
+[ext_resource path="res://AI.tscn" type="PackedScene" id=7]
+[ext_resource path="res://font_vcr_osd_mono.tres" type="DynamicFont" id=8]
+[ext_resource path="res://MainMenu.gd" type="Script" id=9]
+[ext_resource path="res://font_vcr_osd_mono_big.tres" type="DynamicFont" id=10]
+[ext_resource path="res://paint_it_bgm.ogg" type="AudioStream" id=11]
+
+[node name="World" type="Node2D"]
+
+position = Vector2( 15.5125, -5.54016 )
+script = ExtResource( 1 )
+max_game_time = 240
+time_to_claim_score = 8
+timer_label_path = NodePath("GameUI/Label")
+blue_score_path = NodePath("GameUI/Blue/Score")
+red_score_path = NodePath("GameUI/Red/Label")
+green_score_path = NodePath("GameUI/Green/Label")
+purple_score_path = NodePath("GameUI/Purple/Label")
+
+[node name="BoardManager" type="Node2D" parent="."]
+
+editor/display_folded = true
+script = ExtResource( 2 )
+sprite = ExtResource( 3 )
+tileSize = Vector2( 66, 35 )
+tileOffset = Vector2( 2, 3 )
+width = 10
+height = 10
+min_pu_time = 8
+max_pu_time = 20
+max_pu_at_board = 8
+arrow_pu_scene = ExtResource( 4 )
+
+[node name="Timer" type="Timer" parent="BoardManager"]
+
+process_mode = 1
+wait_time = 1.0
+one_shot = false
+autostart = false
+
+[node name="CharacterManager" type="Node2D" parent="."]
+
+script = ExtResource( 5 )
+player_scene = ExtResource( 6 )
+ai_scene = ExtResource( 7 )
+
+[node name="GameUI" type="Control" parent="."]
+
+visible = false
+margin_right = 700.0
+margin_bottom = 400.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="Blue" type="Control" parent="GameUI"]
+
+editor/display_folded = true
+anchor_left = 1
+anchor_top = 1
+anchor_right = 1
+anchor_bottom = 1
+margin_left = 65.0
+margin_top = 41.0
+margin_right = 65.0
+margin_bottom = 41.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Sprite" type="Sprite" parent="GameUI/Blue"]
+
+texture = ExtResource( 3 )
+centered = false
+vframes = 10
+hframes = 10
+frame = 30
+_sections_unfolded = [ "Animation", "Offset" ]
+
+[node name="Score" type="Label" parent="GameUI/Blue"]
+
+margin_left = -57.0
+margin_top = 22.0
+margin_right = -1.0
+margin_bottom = 36.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 8 )
+align = 2
+autowrap = true
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts", "custom_styles" ]
+
+[node name="Red" type="Control" parent="GameUI"]
+
+editor/display_folded = true
+margin_left = -8.0
+margin_top = 11.0
+margin_right = 32.0
+margin_bottom = 51.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Sprite" type="Sprite" parent="GameUI/Red"]
+
+texture = ExtResource( 3 )
+centered = false
+vframes = 10
+hframes = 10
+frame = 31
+_sections_unfolded = [ "Animation", "Offset" ]
+
+[node name="Label" type="Label" parent="GameUI/Red"]
+
+margin_left = 47.0
+margin_top = 23.0
+margin_right = 87.0
+margin_bottom = 37.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 8 )
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
+
+[node name="Green" type="Control" parent="GameUI"]
+
+editor/display_folded = true
+anchor_top = 1
+anchor_bottom = 1
+margin_left = -7.0
+margin_top = 42.0
+margin_right = 33.0
+margin_bottom = 42.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Sprite" type="Sprite" parent="GameUI/Green"]
+
+texture = ExtResource( 3 )
+centered = false
+vframes = 10
+hframes = 10
+frame = 32
+_sections_unfolded = [ "Animation", "Offset", "Transform" ]
+
+[node name="Label" type="Label" parent="GameUI/Green"]
+
+margin_left = 46.0
+margin_top = 24.0
+margin_right = 86.0
+margin_bottom = 38.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 8 )
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_fonts" ]
+
+[node name="Purple" type="Control" parent="GameUI"]
+
+editor/display_folded = true
+anchor_left = 1
+anchor_right = 1
+margin_left = 63.0
+margin_top = 11.0
+margin_right = 63.0
+margin_bottom = 51.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+[node name="Sprite" type="Sprite" parent="GameUI/Purple"]
+
+texture = ExtResource( 3 )
+centered = false
+vframes = 10
+hframes = 10
+frame = 33
+_sections_unfolded = [ "Animation", "Offset" ]
+
+[node name="Label" type="Label" parent="GameUI/Purple"]
+
+margin_left = -43.0
+margin_top = 23.0
+margin_right = -3.0
+margin_bottom = 37.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 8 )
+align = 2
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors", "custom_fonts" ]
+
+[node name="Label" type="Label" parent="GameUI"]
+
+anchor_left = 2
+anchor_right = 2
+margin_left = 36.0
+margin_top = 19.0
+margin_right = -12.0
+margin_bottom = 97.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 8 )
+text = "4:00"
+autowrap = true
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Anchor", "custom_colors", "custom_fonts" ]
+
+[node name="MainMenuUI" type="Control" parent="."]
+
+editor/display_folded = true
+margin_left = -16.0
+margin_top = 6.0
+margin_right = 684.0
+margin_bottom = 406.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+script = ExtResource( 9 )
+_sections_unfolded = [ "Anchor", "Focus", "Grow Direction", "Hint", "Margin", "Material", "Mouse", "Rect", "Size Flags", "Theme", "Visibility" ]
+
+[node name="PlayMode" type="Control" parent="MainMenuUI"]
+
+margin_right = 700.0
+margin_bottom = 400.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="SinglePlayer" type="Button" parent="MainMenuUI/PlayMode"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -28.0
+margin_right = -64.0
+margin_bottom = -48.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Single Player"
+flat = false
+_sections_unfolded = [ "Margin", "custom_styles" ]
+
+[node name="2 Player" type="Button" parent="MainMenuUI/PlayMode"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -56.0
+margin_right = -64.0
+margin_bottom = -76.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "2 Players"
+flat = false
+_sections_unfolded = [ "Anchor" ]
+
+[node name="3 Player" type="Button" parent="MainMenuUI/PlayMode"]
+
+anchor_top = 1
+anchor_bottom = 1
+margin_left = 286.0
+margin_top = 117.0
+margin_right = 414.0
+margin_bottom = 97.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "3 Players"
+flat = false
+_sections_unfolded = [ "Anchor" ]
+
+[node name="4 Player" type="Button" parent="MainMenuUI/PlayMode"]
+
+anchor_top = 1
+anchor_bottom = 1
+margin_left = 286.0
+margin_top = 90.0
+margin_right = 414.0
+margin_bottom = 70.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "4 Players"
+flat = false
+_sections_unfolded = [ "Anchor" ]
+
+[node name="Controls" type="Button" parent="MainMenuUI/PlayMode"]
+
+anchor_top = 1
+anchor_bottom = 1
+margin_left = 286.0
+margin_top = 62.0
+margin_right = 414.0
+margin_bottom = 42.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Controls"
+flat = false
+_sections_unfolded = [ "Anchor" ]
+
+[node name="Label" type="Label" parent="MainMenuUI/PlayMode"]
+
+margin_left = 256.0
+margin_top = 104.0
+margin_right = 454.0
+margin_bottom = 137.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 10 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "PAINT IT!"
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Margin", "custom_colors", "custom_fonts" ]
+
+[node name="Select Bot" type="Control" parent="MainMenuUI"]
+
+visible = false
+margin_right = 700.0
+margin_bottom = 400.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="No Bot" type="Button" parent="MainMenuUI/Select Bot"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -35.0
+margin_right = -64.0
+margin_bottom = -55.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "No Bot"
+flat = false
+_sections_unfolded = [ "Margin", "custom_styles" ]
+
+[node name="1 Bot" type="Button" parent="MainMenuUI/Select Bot"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -63.0
+margin_right = -64.0
+margin_bottom = -83.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "1 Bot"
+flat = false
+_sections_unfolded = [ "custom_styles" ]
+
+[node name="2 Bots" type="Button" parent="MainMenuUI/Select Bot"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -91.0
+margin_right = -64.0
+margin_bottom = -111.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "2 Bots"
+flat = false
+_sections_unfolded = [ "Anchor" ]
+
+[node name="3 Bots" type="Button" parent="MainMenuUI/Select Bot"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -119.0
+margin_right = -64.0
+margin_bottom = -139.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "3 Bots"
+flat = false
+_sections_unfolded = [ "Anchor", "Margin" ]
+
+[node name="BackFromBot" type="Button" parent="MainMenuUI/Select Bot"]
+
+anchor_top = 1
+anchor_bottom = 1
+margin_left = 286.0
+margin_top = 53.0
+margin_right = 414.0
+margin_bottom = 33.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Back"
+flat = false
+_sections_unfolded = [ "Anchor" ]
+
+[node name="Time" type="Control" parent="MainMenuUI"]
+
+visible = false
+margin_right = 700.0
+margin_bottom = 400.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="1" type="Button" parent="MainMenuUI/Time"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -57.0
+margin_right = -64.0
+margin_bottom = -77.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "1 Minute"
+flat = false
+_sections_unfolded = [ "Margin", "custom_styles" ]
+
+[node name="2" type="Button" parent="MainMenuUI/Time"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -83.0
+margin_right = -64.0
+margin_bottom = -103.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "2 Minutes"
+flat = false
+_sections_unfolded = [ "custom_styles" ]
+
+[node name="4" type="Button" parent="MainMenuUI/Time"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -111.0
+margin_right = -64.0
+margin_bottom = -131.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "4 Minutes"
+flat = false
+_sections_unfolded = [ "Anchor" ]
+
+[node name="BackFromTime" type="Button" parent="MainMenuUI/Time"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -139.0
+margin_right = -64.0
+margin_bottom = -159.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Back"
+flat = false
+_sections_unfolded = [ "Anchor" ]
+
+[node name="Controls" type="Control" parent="MainMenuUI"]
+
+visible = false
+margin_right = 700.0
+margin_bottom = 400.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="Panel" type="Panel" parent="MainMenuUI/Controls"]
+
+visible = false
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 154.0
+margin_top = 69.0
+margin_right = -155.0
+margin_bottom = 29.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="Label" type="Label" parent="MainMenuUI/Controls/Panel"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 300.0
+margin_top = 9.0
+margin_right = -300.0
+margin_bottom = -8.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 8 )
+text = "Player 1 - Press Left Key"
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Margin", "custom_fonts" ]
+
+[node name="Controls" type="Control" parent="MainMenuUI/Controls"]
+
+margin_right = 700.0
+margin_bottom = 400.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="Player 1" type="Button" parent="MainMenuUI/Controls/Controls"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -24.0
+margin_right = -64.0
+margin_bottom = -44.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Player 1"
+flat = false
+_sections_unfolded = [ "Margin", "custom_styles" ]
+
+[node name="Player 2" type="Button" parent="MainMenuUI/Controls/Controls"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -52.0
+margin_right = -64.0
+margin_bottom = -72.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Player 2"
+flat = false
+_sections_unfolded = [ "custom_styles" ]
+
+[node name="Player 3" type="Button" parent="MainMenuUI/Controls/Controls"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -80.0
+margin_right = -64.0
+margin_bottom = -100.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Player 3"
+flat = false
+_sections_unfolded = [ "Anchor" ]
+
+[node name="Player 4" type="Button" parent="MainMenuUI/Controls/Controls"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -108.0
+margin_right = -64.0
+margin_bottom = -128.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Player 4"
+flat = false
+_sections_unfolded = [ "Anchor" ]
+
+[node name="Back" type="Button" parent="MainMenuUI/Controls/Controls"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -138.0
+margin_right = -64.0
+margin_bottom = -158.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Back"
+flat = false
+_sections_unfolded = [ "Anchor" ]
+
+[node name="GameOverUI" type="Control" parent="."]
+
+editor/display_folded = true
+visible = false
+margin_right = 700.0
+margin_bottom = 400.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="Panel" type="Panel" parent="GameOverUI"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 100.0
+margin_top = 53.0
+margin_right = -100.0
+margin_bottom = 13.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="Label" type="Label" parent="GameOverUI/Panel"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 300.0
+margin_top = 10.0
+margin_right = -300.0
+margin_bottom = -7.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = ExtResource( 8 )
+text = "BLUE WIN"
+align = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Margin", "custom_fonts" ]
+
+[node name="GoToMainMenu" type="Button" parent="GameOverUI"]
+
+anchor_left = 2
+anchor_top = 2
+anchor_right = 2
+anchor_bottom = 2
+margin_left = 64.0
+margin_top = -120.0
+margin_right = -64.0
+margin_bottom = -140.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Back"
+flat = false
+_sections_unfolded = [ "Anchor", "Grow Direction", "Margin" ]
+
+[node name="bgm" type="AudioStreamPlayer" parent="."]
+
+stream = ExtResource( 11 )
+volume_db = 0.0
+autoplay = true
+mix_target = 0
+bus = "Master"
+
+[connection signal="button_up" from="MainMenuUI/PlayMode/SinglePlayer" to="MainMenuUI" method="_on_SinglePlayer_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/PlayMode/2 Player" to="MainMenuUI" method="_on_2_Player_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/PlayMode/3 Player" to="MainMenuUI" method="_on_3_Player_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/PlayMode/4 Player" to="MainMenuUI" method="_on_4_Player_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/PlayMode/Controls" to="MainMenuUI" method="_on_Controls_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Select Bot/No Bot" to="MainMenuUI" method="_on_No_Bot_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Select Bot/1 Bot" to="MainMenuUI" method="_on_1_Bot_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Select Bot/2 Bots" to="MainMenuUI" method="_on_2_Bots_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Select Bot/3 Bots" to="MainMenuUI" method="_on_3_Bots_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Select Bot/BackFromBot" to="MainMenuUI" method="_on_BackFromBot_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Time/1" to="MainMenuUI" method="_on_1_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Time/2" to="MainMenuUI" method="_on_2_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Time/4" to="MainMenuUI" method="_on_4_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Time/BackFromTime" to="MainMenuUI" method="_on_BackFromTime_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Controls/Controls/Player 1" to="MainMenuUI" method="_on_Player_1_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Controls/Controls/Player 2" to="MainMenuUI" method="_on_Player_2_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Controls/Controls/Player 3" to="MainMenuUI" method="_on_Player_3_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Controls/Controls/Player 4" to="MainMenuUI" method="_on_Player_4_button_up"]
+
+[connection signal="button_up" from="MainMenuUI/Controls/Controls/Back" to="MainMenuUI" method="_on_Back_button_up"]
+
+[connection signal="button_up" from="GameOverUI/GoToMainMenu" to="MainMenuUI" method="_on_GoToMainMenu_button_up"]
+
+
