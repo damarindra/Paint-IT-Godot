@@ -8,7 +8,7 @@ if (!Module.expectedDataFileDownloads) {
 Module.expectedDataFileDownloads++;
 (function() {
 
-    const PACK_FILE_NAME = 'index.pck';    const PACK_FILE_SIZE = 325204;    function fetchRemotePackage(packageName, callback, errback) {
+    const PACK_FILE_NAME = 'index.pck';    const PACK_FILE_SIZE = 325988;    function fetchRemotePackage(packageName, callback, errback) {
       var xhr = new XMLHttpRequest();
       xhr.open('GET', packageName, true);
       xhr.responseType = 'arraybuffer';
