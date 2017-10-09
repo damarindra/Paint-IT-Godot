@@ -34,8 +34,6 @@ func _fixed_process(delta):
 #	print("MOVE" + str(can_move))
 	if !is_controllable:
 		return
-	else:
-		print(is_waiting)
 	
 	# make a priority move, next move priority is unoccupied tile
 	# 0 = vertical or 1 = horizontal

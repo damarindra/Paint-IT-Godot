@@ -26,25 +26,45 @@ var player_1_controls = {
 	"left" : 16777231,
 	"down" : 16777234,
 	"right" : 16777233,
-	"up" : 16777232
+	"up" : 16777232,
+	"id" : 0,
+	"left_pad" : 14,
+	"right_pad" : 15,
+	"up_pad" : 12,
+	"down_pad" : 13
 	}
 var player_2_controls = {
 	"left" : 83,
 	"down" : 65,
 	"right" : 87,
-	"up" : 81
+	"up" : 81,
+	"id" : 1,
+	"left_pad" : 14,
+	"right_pad" : 15,
+	"up_pad" : 12,
+	"down_pad" : 13
 	}
 var player_3_controls = {
 	"left" : 75,
 	"down" : 76,
 	"right" : 79,
-	"up" : 73
+	"up" : 73,
+	"id" : 2,
+	"left_pad" : 14,
+	"right_pad" : 15,
+	"up_pad" : 12,
+	"down_pad" : 13
 	}
 var player_4_controls = {
 	"left" : 16777351,
 	"down" : 16777352,
 	"right" : 16777355,
-	"up" : 16777354
+	"up" : 16777354,
+	"id" : 3,
+	"left_pad" : 14,
+	"right_pad" : 15,
+	"up_pad" : 12,
+	"down_pad" : 13
 	}
 
 onready var timer_label = get_node(timer_label_path)
